@@ -9,7 +9,7 @@ User Management System
 # Data Flow
 The following functions are used in the data flow of this project:
 
-**Controller:** The controller has endpoints for adding a user, getting all users, getting a user by their ID, and deleting a user by their ID. The @PostMapping annotation is used for the addUser endpoint to handle HTTP POST requests with a JSON request body containing a user object. The @Valid annotation is used to validate the user object against any defined validation constraints.
+_**Controller:**_ The controller has endpoints for adding a user, getting all users, getting a user by their ID, and deleting a user by their ID. The @PostMapping annotation is used for the addUser endpoint to handle HTTP POST requests with a JSON request body containing a user object. The @Valid annotation is used to validate the user object against any defined validation constraints.
 
 The @GetMapping annotation is used for the getAllUserList and getUserByUserId endpoints to handle HTTP GET requests with and without a path variable for the user ID, respectively. The @PathVariable annotation is used to extract the user ID from the request URL and pass it to the getUserById method.
 
